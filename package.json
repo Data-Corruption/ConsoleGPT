@@ -1,0 +1,25 @@
+{
+  "name": "consolegpt",
+  "version": "1.0.0",
+  "description": "Simple console interface for StableLM",
+  "author": "Matthew Pombo aka (Data-Corruption)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Data-Corruption/ConsoleGPT.git"
+  },
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "npm i && node ./build.js && tsc",
+    "start": "node ./bin/index.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "zeromq": "^6.0.0-beta.16"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.12",
+    "@types/readline-sync": "^1.4.4",
+    "typescript": "^5.0.4"
+  }
+}
